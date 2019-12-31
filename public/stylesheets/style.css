@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.login-label {
+  width: 480px;
+  height: 260px;
+  text-align: center;
+  border: 2px solid #f0f0f0;
+}
+
+.login-label-line {
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+}
+
+.login-label-line-label{
+  width: 120px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+input {
+  outline: none;
+}

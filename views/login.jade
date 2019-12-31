@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div(class="login-label")
+    h1 登录页面
+    form(action="/login" method="post")
+      div(class="login-label-line")
+         label(for="username" class="login-label-line-label") 用户名
+         input(type="text" id="username" name="username" placeholder="用户名")
+      div(class="login-label-line")
+        label(for="password" class="login-label-line-label") 密码
+        input(type="text" id="password" name="password" placeholder="密码")
+      div(class="login-label-line")
+        input(type="submit" value="登录")
+
